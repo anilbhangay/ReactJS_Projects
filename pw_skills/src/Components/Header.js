@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../Assets/PWSkills-logo.png';
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 
 function Header(){
      return(
@@ -15,7 +15,7 @@ function Header(){
                    <span className="input-group-text" id="basic-addon1">
                      <i className="fa-solid fa-magnifying-glass"></i>
                    </span>
-                   <input type="text" className="form-control" placeholder="what do you want to learn?" aria-describedby="basic-addon1" />
+                   <input type="text" className="form-control" placeholder="what do you want to learn?"  aria-label="Username" aria-describedby="basic-addon1"/>
                 </div>
             </div>
                   <div className="col-lg-2 mt-3">
@@ -28,4 +28,4 @@ function Header(){
      )
 }
 
-export default Header;
+export default Header
