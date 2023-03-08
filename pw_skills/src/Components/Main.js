@@ -19,12 +19,13 @@ import affilitate from '../Assets/affilitatePortal-icon.svg'
 import halloffame from '../Assets/halloffame-icon.svg'
 import Product from './Product'
 
-function Main (){
+
+function Main(){
     return(
         <>
         <main>
-            <section className="home">  
-            <img src={home} alt="home" className="home-image"></img>
+            <section className="home">
+                <img src={home} alt="home" className="home-image"></img>
             </section>
 
             <section className="container my-5 main-info">
@@ -82,7 +83,6 @@ function Main (){
                 </div>
             </div>
             </section>
-            
 
             <section className="hall-of-fame">
                 <div className="container">
@@ -147,5 +147,4 @@ function Main (){
         </>
     )
 }
-
-export default Main;
+export default Main
