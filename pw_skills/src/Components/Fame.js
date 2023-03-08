@@ -18,4 +18,4 @@ function Fame({fame}){
   )
 }
 
-export default Fame
+export default Fame;

@@ -13,4 +13,4 @@ function Product(props){
         </div>
     )
 }
-export default Product
+export default Product;

@@ -1,0 +1,158 @@
+body {
+    max-width: 1440px;
+    overflow-x: hidden;
+        
+}
+
+.logo-image {
+    width: 150px;
+}
+
+.btn-login {
+    background-color: #5a4bda;
+    text-align: center;
+    padding: 5px 30px;
+    color:  white;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 33px;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.home-image {
+    height: 100%;
+    width: 100%;
+}
+
+.hardwork-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #5a4bda;
+    padding: 45px 0;
+}
+
+.cart-image {
+    width: 200px;
+}
+
+.cart-info {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.cart-para {
+    font-size: 2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.our-achiever {
+    background-color: #eaecef;
+    padding: 80px 0;
+}
+
+.achiever-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #5a4bda;
+    padding: 0 0 50px 0;
+}
+
+.achiever-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hall-of-fame {
+    padding: 80px 0;
+}
+
+.fame-heading {
+    padding: 0 0 50px 0;
+    color: #5a4bda;
+    font-size: 3rem;
+    font-family: 700;
+}
+
+.fame-image {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+}
+
+.program{
+    padding: 60px 0;
+}
+
+.program-heading {
+    color: #5a4bda;
+    font-size: 3rem;
+    font-family: 800;
+}
+
+.programcart-image{
+    width: 100%;
+}
+
+.course-heading{
+    color: #5a4bda;
+}
+
+.product-section {
+    padding: 60px 0;
+}
+
+.product-heading {
+    color: #5a4bda;
+    font-size: 3.5rem;
+}
+
+.product-image{
+    height: 200px;
+}
+
+.footer {
+     padding: 60px 0; 
+}
+
+.line {
+    color: #f7a654;
+    background-color: #f7a654;
+}
+
+
+
+@media screen and (max-width:992px){
+    .hardwork-heading {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #5a4bda;
+        padding: 40px 0;
+    }
+    .cart-image{
+        width: 100px;
+    }
+    .cart-info{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .cart-para{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: gray;
+    }
+    .achiever-heading{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #5a4bda;
+        padding: 40px 0;
+    }
+}
