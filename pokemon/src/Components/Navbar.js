@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Navbar = () => {
-  return <h1>This is a Navigation</h1>
+  return <h1 className='navi'>This is a Navigation</h1>
   
 }
 

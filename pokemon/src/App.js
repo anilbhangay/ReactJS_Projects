@@ -24,12 +24,14 @@ function App() {
      <Navbar />
      <form>
          <input
+             className="input-1"
              type={"text"}
              placeholder="Enter User Name"
              value={name}
              onChange={myname}
          />
          <input
+             className="input-2"
              type={"text"}
              placeholder="Enter a Color name"
              value={color}
