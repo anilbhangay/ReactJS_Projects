@@ -3,6 +3,6 @@ import { myContext } from '../App';
 
  export const Button = () => {
     const data = useContext(myContext);
-     return  <div style={{ backgroundColor: data.color }}> Button</div>;
+     return  <div className='btn' style={{ backgroundColor: data.color }}> Button</div>;
      
 };

@@ -22,7 +22,7 @@ function App() {
   return (
     <myContext.Provider value={{ name, color }}>
      <Navbar />
-     <form>
+     <form className="inpt">
          <input
              className="input-1"
              type={"text"}
