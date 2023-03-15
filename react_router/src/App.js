@@ -1,10 +1,11 @@
+import React from 'react';
 import './App.css';
 import Footer from './Footer';
 import Header from './Header';
 import { Outlet } from 'react-router-dom';
-import About from './about';
-import Contact from './Contact';
-import Body from './Body';
+// import About from './About';
+// import Contact from './Contact';
+// import Body from './Body';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
        <Outlet  />
 
        <Footer />      
-       
+
     </div>
   );
 }

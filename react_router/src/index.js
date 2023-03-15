@@ -6,7 +6,6 @@ import About from './About';
 import Contact from './Contact';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Body from './Body';
-import Error from './Error';
 
 
 const appRouter = createBrowserRouter([

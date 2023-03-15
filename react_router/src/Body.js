@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Body = () => {
-  return  <h1 className='home'>Welcome to Homepage</h1>;
+  return  <div className='home'><img src=''></img></div>;
 };
 
 export default Body;
