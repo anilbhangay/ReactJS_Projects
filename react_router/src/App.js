@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './Footer';
 import Header from './Header';
 import { Outlet } from 'react-router-dom';
+import Cards from './Cards';
 // import About from './About';
 // import Contact from './Contact';
 // import Body from './Body';
@@ -15,7 +16,8 @@ function App() {
        <Outlet  />
 
        <Footer />      
-
+        
+      <Cards />
     </div>
   );
 }

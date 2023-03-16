@@ -1,7 +1,10 @@
 import React from 'react'
+import Cards from './Cards';
 
 const Body = () => {
-  return  <div className='home'><img src=''></img></div>;
+  return  <div className='home'>
+ 
+  </div>;
 };
 
 export default Body;
