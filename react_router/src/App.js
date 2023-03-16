@@ -4,16 +4,19 @@ import Footer from './Footer';
 import Header from './Header';
 import { Outlet } from 'react-router-dom';
 import Cards from './Cards';
-// import About from './About';
-// import Contact from './Contact';
-// import Body from './Body';
+import About from './About';
+import Contact from './Contact';
+import Body from './Body';
+
 
 function App() {
   return (
     <div>
        <Header />
 
-       <Outlet  />
+       <Outlet>
+        {About} {Contact} {Body}
+       </Outlet>
 
        <Footer />      
         

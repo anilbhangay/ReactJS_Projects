@@ -1,10 +1,9 @@
 import React from 'react'
-import Cards from './Cards';
 
 const Body = () => {
-  return  <div className='home'>
- 
-  </div>;
-};
+  return (
+    <div>Body</div>
+  )
+}
 
 export default Body;
