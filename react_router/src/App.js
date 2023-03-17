@@ -14,10 +14,8 @@ function App() {
     <div>
        <Header />
 
-       <Outlet>
-        
-       </Outlet>
-
+       <Outlet />
+      
        <Footer />      
         
       <Cards />

@@ -1,9 +1,10 @@
 import React from 'react'
+import cnt from './Assets/contact.png';
 
 const Contact = () => {
   return (
     <div className='cont'>
-        <h3>Contact Us</h3>
+        <img src={cnt} alt='pic'></img>
     </div>
   )
 }
