@@ -15,7 +15,7 @@ function App() {
        <Header />
 
        <Outlet>
-        {About} {Contact} {Body}
+        
        </Outlet>
 
        <Footer />      
