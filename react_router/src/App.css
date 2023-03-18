@@ -20,14 +20,14 @@
 
 .nav-items ul li {
     list-style-type:none;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
     font-family: sans-serif;
     color: black;
 }
 
 .nav-items ul li:hover {
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 600;
 }
 
@@ -88,13 +88,25 @@
     border-radius: 50%;
 }
 
-footer {
-    margin-top: 30px;
-    background-color: #1b2124;
-    padding: 26px;
-    text-align: center;
-    font-size: 15px;
-    font-family: sans-serif;
-    color: #fff;
+.footers p {
+   margin-top: 50px;
+   padding: 30px;
+   text-align: center;
+   background-color: #1b2124;
+   font-size: 15px;
+   font-family: sans-serif;
+   color: #fff;
 }
 
+.footers i {
+    background-color:#1b2124;
+    padding-right: 14px;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+}
+
+.footers i:hover {
+    color: #ea8e30;
+    cursor: pointer;
+}
