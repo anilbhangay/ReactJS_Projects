@@ -4,7 +4,15 @@ import './App.css';
 function App() {
   return (
     <>
-      <h1>Hello todo app users</h1>
+    <div className='header'>
+      <h1>Todo App</h1>
+      <div className='text'>
+        <input type={'text'} name='text'  placeholder='Enter Here'/>
+          <button className='btn'>
+             Add
+          </button>
+      </div>
+    </div>
     </>
   );
 }
