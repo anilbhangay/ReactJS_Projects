@@ -9,7 +9,7 @@ function App() {
       <div className='text'>
         <input type={'text'} name='text'  placeholder='Enter Here'/>
           <button className='btn' type= {'submit'}> 
-             Add
+             Add List
           </button>
       </div>
     </div>
