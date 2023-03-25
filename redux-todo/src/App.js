@@ -6,12 +6,10 @@ function App() {
     <>
     <div className='header'>
       <h1>Todo List</h1>
-      <div className='text'>
-        <input type={'text'} name='text'  placeholder='Enter Here'/>
+      <input type={'text'} name='text'  placeholder='Enter Here'/>
           <button className='btn' type= {'submit'}> 
-             Add List
+             Add
           </button>
-      </div>
     </div>
     </>
   );
