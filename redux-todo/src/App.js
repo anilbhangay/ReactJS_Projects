@@ -8,8 +8,14 @@ function App() {
       <h1>Todo List</h1>
       <input type={'text'} name='text'  placeholder='Enter Here'/>
           <button className='btn' type= {'submit'}> 
-             Add
+             Submit
           </button>
+    </div>
+    <div className='list'>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
     </div>
     </>
   );
