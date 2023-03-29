@@ -10,9 +10,9 @@ function App() {
           <button className='btn' type= {'submit'}> 
              Add
           </button>
-          <div className='para'>
-      <p>this is a Todo list page</p>
-    </div>
+  </div>
+  <div className='para'>
+       <span>This is a todo app  </span>
   </div>
     </>
   );
