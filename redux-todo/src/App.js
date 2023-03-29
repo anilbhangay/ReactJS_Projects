@@ -5,11 +5,14 @@ function App() {
   return (
     <>
     <div className='header'>
-      <h1>Todo List</h1>
+      <h1>Todo App</h1>
       <input type={'text'} name='text'  placeholder='Enter Here'/>
           <button className='btn' type= {'submit'}> 
-             Submit
+             Add
           </button>
+    </div>
+    <div className='para'>
+      <p>Hello world</p>
     </div>
     </>
   );
