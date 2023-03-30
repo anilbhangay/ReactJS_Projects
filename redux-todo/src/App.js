@@ -11,9 +11,11 @@ function App() {
              Add
           </button>
   </div>
-  <div className='para'>
-       <span>This is a todo app  </span>
-  </div>
+   <div className='redux'>
+    <p>
+      This is a process of todo app
+    </p>
+   </div>
     </>
   );
 }
