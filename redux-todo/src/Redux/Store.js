@@ -4,7 +4,7 @@ import './Store.css';
 const Store = () => {
   return (
     <>
-
+     
     </>
   )
 }
