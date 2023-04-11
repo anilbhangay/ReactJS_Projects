@@ -4,7 +4,7 @@ import App from '../App';
 const Store = () => {
   return (
     <>
-    <App />
+    
     </>
   )
 }
