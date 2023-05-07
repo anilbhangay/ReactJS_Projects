@@ -9,11 +9,6 @@ const App = () => {
       <input type='{name}' placeholder='Type Here'></input>
       <button>Add</button>
       </div>
-       <div className='todo'>
-         <p>
-          this is a Todo App List
-         </p>
-        </div>  
     </>
   )
 }
