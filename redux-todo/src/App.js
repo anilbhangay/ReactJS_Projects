@@ -10,10 +10,6 @@ const App = () => {
       <button>Add</button>
       </div>
 
-      <div className='pop'>
-          <p>This is a Todo List App</p>
-          
-      </div>
     </>
   )
 }
