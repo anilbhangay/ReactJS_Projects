@@ -10,6 +10,11 @@ const App = () => {
       <button>Add</button>
       </div>
 
+      <div className='input'>
+        <p>This is a Todo App list </p>
+        <button>Delete</button>
+      </div>
+
     </>
   )
 }
