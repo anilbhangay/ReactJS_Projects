@@ -10,12 +10,6 @@ const App = () => {
       <button>Add</button>
       </div>
            
-         <div className='read'>
-          <h2> 
-             This is unique code of todo app 
-          </h2>
-          <button>Delete</button>
-          </div>  
     </>
   )
 }
