@@ -11,9 +11,9 @@ const App = () => {
       </div>
            
          <div className='read'>
-          <p> 
-             This is unique code of todo app list
-          </p>
+          <h2> 
+             This is unique code of todo app 
+          </h2>
           <button>Delete</button>
           </div>  
     </>
