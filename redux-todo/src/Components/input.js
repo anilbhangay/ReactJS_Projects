@@ -1,11 +1,18 @@
 import React from 'react';
+import './Input.css';
 
-const input = () => {
+const Input = () => {
+      
+    const addTodo = () => {
+        
+    }
+
   return (
-    <div>
-
+    <div className='input'>
+          <input type='text'/>
+          <button onClick={addTodo}>Add</button>
     </div>
   )
 }
 
-export default input;
+export default Input;
