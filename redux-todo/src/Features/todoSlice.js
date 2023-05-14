@@ -16,4 +16,4 @@ export const {
 
 } = todoSlice.actions
 
-export default todoSlice.reducer
+export default todoSlice.reducer;
