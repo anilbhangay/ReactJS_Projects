@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import './Input.css';
 
-const Input = () => {
+import useDispatch from 'react-redux'
+import saveTodo from 'react-redux'
 
-    const [input, setInput] = useState('')
-      
+   const Input = () => {
+       const [input, setInput] = useState('')
+       const dispatch = useDispatch()
+   
+
     const addTodo = () => {
-
+        console.log(`Adding $(input)`)
     }
 
   return (
