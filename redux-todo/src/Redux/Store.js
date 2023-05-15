@@ -1,12 +1,8 @@
-import React from 'react'
+import { configureStore } from "@reduxjs/toolkit";
+import todoReducer from '../Features/todoSlice'
 
-
-const Store = () => {
-  return (
-    <>
-     
-    </>
-  )
-}
-
-export default Store;
+export default configureStore({
+     reducer: {
+         todos: todoReducer
+     },
+});
