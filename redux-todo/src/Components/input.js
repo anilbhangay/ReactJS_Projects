@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Input.css';
 
 import useDispatch from 'react-redux'
-import saveTodo from 'react-redux'
+import saveTodo from '../Features/todoSlice'
 
    const Input = () => {
        const [input, setInput] = useState('')
@@ -10,7 +10,14 @@ import saveTodo from 'react-redux'
    
 
     const addTodo = () => {
-        console.log(`Adding $(input)`)
+        console.log(`Adding ${input}`)
+
+
+         dispatch(saveTodo({
+              item: input,
+              done: false,
+              id: Date.now()
+         }))
     }
 
   return (
