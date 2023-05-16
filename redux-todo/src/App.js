@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Input from './Components/Input';
+import TodoItem from './Components/TodoItem';
 
 const todoList = [{
   item: 'todo',
@@ -17,7 +18,12 @@ function App() {
        <div className='app'>
          <div className='app_container'>
             <div className='app_todoContainer'>
-              
+                 {
+                  todoList.map(item => (
+                        <TodoItem />
+                  ))
+                 }
+
             </div>
          <Input />
          </div>
