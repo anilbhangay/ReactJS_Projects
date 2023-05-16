@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TodoItem = () => {
+const TodoItem = ({ name, done, id }) => {
   return (
     <div className='todoItem'>
 
