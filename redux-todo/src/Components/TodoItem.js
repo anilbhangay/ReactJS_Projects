@@ -3,11 +3,15 @@ import './TodoItem.css'
 
 import Checkbox from '@mui/material/Checkbox';
 
+import { useDispatch } from 'react-redux';
+import { setCheck } from '../Features/todoSlice';
+
 
 const TodoItem = ({ name, done, id }) => {
+     const dispatch = useDispatch()
 
        const handleCheck = () => {
-             
+           dispatch(setCheck(id))     
        }
 
   return (
