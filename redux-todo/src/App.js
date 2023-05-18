@@ -3,14 +3,13 @@ import './App.css';
 import Input from './Components/Input';
 import TodoItem from './Components/TodoItem';
   
-import { useSelector } from 'react-redux';
+import { Provider, useSelector } from 'react-redux';
 import { selectTodoList } from './Features/todoSlice';
 
 
 function App() {
-
+    
     const todoList = useSelector(selectTodoList)
-     
     return (
        <div className='app'>
          <div className='app_container'>
