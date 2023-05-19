@@ -13,15 +13,15 @@ const todoSlice = createSlice({
        },
 
         setCheck: (state, action) => {
-            state.todoList.map(item => {
-                  if (action.payload === item.id) {
+             state.todoList.map(item => {
+                 if (action.payload === item.id) {
                      if (item.done === true) {
                           item.done = false
                      } else {
-                          item.done = true
+                        item.done = true
                      }
-                  }
-            })
+                 }
+             })
         }
   }
 });
